@@ -21,7 +21,13 @@ Location of tests
 
 
 Recording the requests
-1) 
+1) run ./recorder.sh inside zip bin folder.
+2) Inside recorder, just click start.(do any changes if required.) listening port is 8000 on localhost.
+3) once started, go to crome/settings/advancedsettings/proxysettings. Add web proxy. localhost:8000.
+4) once proxy is added, refresh http://www.bbc.com/.
+5) in recorder you should see requests getting recorded.
+6) It will create a scala script file as well in the user-files/simulations directory.
+7) these scripts are examples of how to write scala gatling scripts.
 
 Website
 http://gatling.io/
