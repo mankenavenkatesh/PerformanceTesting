@@ -26,8 +26,20 @@ Recording the requests
 3) once started, go to crome/settings/advancedsettings/proxysettings. Add web proxy. localhost:8000.
 4) once proxy is added, refresh http://www.bbc.com/.
 5) in recorder you should see requests getting recorded.
-6) It will create a scala script file as well in the user-files/simulations directory.
+6) It will create a scala script simulation file as well in the user-files/simulations directory.
 7) these scripts are examples of how to write scala gatling scripts.
+8) these script simulations are the scenarious which can be executed again using gatling.sh
+9) once simulations are run, html file is generated with the report.
+
+
+Using HAR files
+1.  https://toolbox.googleapps.com/apps/har_analyzer/
+2. open google chrome developer tools. network tab.
+3. start recording, click on preserve log. right click and save the har file.
+4. open record.sh, select har file from drop down.
+5. start recording the request. Recorder will convert har request to scala simulations.
+6. run gataling.sh to run the scala simulations.
+
 
 Website
 http://gatling.io/
