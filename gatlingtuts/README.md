@@ -39,6 +39,7 @@ Using HAR files
 4. open record.sh, select har file from drop down.
 5. start recording the request. Recorder will convert har request to scala simulations.
 6. run gataling.sh to run the scala simulations.
+7. go through the simulated gatling script to understand how to write scala scripts.
 
 
 Website
